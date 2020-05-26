@@ -1,0 +1,117 @@
+body{
+font: 100% $myFont;
+background-color: #2b2a2a;
+<p style= font-family: san-serif; color: white;
+font-size: 24px;
+padding: 10%; 
+}
+::selection{background-color:#a1bff0; color: black}
+
+#mainMenu {
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+#mainMenu li {
+	display:block;
+	width:100%;
+	float:inline-start;
+	margin-left:2px;
+	border:1px solid #2b2a2a;
+	font-family:san-serif;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	font: san-serif;
+	background-color:white;
+	color:#2b2a2a;
+}
+
+#mainMenu a:hover {
+	background-color:#a1bff0;
+	color:#fff;
+}
+ul{
+  padding: 10px;
+  display: inline;
+  text-align: center;
+  margin-right: 30px;
+}
+
+	  
+h1 {
+  text-align: center;
+  font-size: 24;
+  text-decoration-color: white;
+  background-color: ##2b2a2a
+  margin-bottom: 1;
+  text-decoration: Bold;
+  text-decoration: underline;
+}
+
+
+table {
+  margin: 0 auto 0 auto;
+  width: 1000px;
+  padding: 5%;
+  text-align:center;
+  table-layout: fixed;
+}
+
+th {
+  padding: .2em;
+}
+
+td {
+  text-decoration-color: #2b2a2a;
+  text-align: center;
+  width:50%;
+  height:80px;
+  font-size:large;
+  padding-left: .5em;
+  padding-right: .5em;
+  border: 1px solid black;
+  background-color: #2b2a2a;
+}
+
+#trHeader {
+  text-decoration: bold;
+  color: black;
+}
+
+.centerCell {
+  text-align: center;}
+
+
+ol{
+  margin-bottom:0px;
+  margin-top: 70px;
+  text-align: center;
+  list-style-position:inside;
+} 
+
+img{
+  display:block;
+  margin: 0 auto 0 auto;
+}
+
+a{
+  text-decoration:underline
+}
+a:visited{color: #a1bff0;
+}
+a:hover{color:#a1bff0;
+}
+a:focus{text-decoration: none;
+}
+a:hover, a:active { text-decoration: white; }
+a{color:white;}
+.myclass{
+  text-decoration-color: white
+}
+#main{
+  text-decoration-color: white
+}
